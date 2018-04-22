@@ -71,12 +71,11 @@ http://ec.europa.eu/eurostat/statistics-explained/index.php/Main_Page/es
 
 http://ropengov.github.io/r/2015/05/01/eurostat-package-examples/
 
-#### Fuentes de otros países:
+#### Fuentes oficiales de otros países:
 
 * Office for National Statistics (ONS) https://www.ons.gov.uk/
 * Oficina estadísitica federal alemana - Destatis https://www.destatis.de/EN/Homepage.html
 * Todas las oficinas estadísticas oficiales
-
 
 #### Open Data | Datos abiertos
 
@@ -95,7 +94,7 @@ Barcelona, portal de datos abiertos
 Open Data in github
 https://github.com/collections/open-data
 
-###Fuentes privadas abiertas
+#### Fuentes privadas abiertas
 
 También hay fuentes de datos abiertos en la web a las que podemos acudir:
 
@@ -107,8 +106,7 @@ También hay fuentes de datos abiertos en la web a las que podemos acudir:
 
 En España, desde que el XXX se aprobase la ley de Transparencia, las instituciones, las comunidades y los ayuntamientos han comenzado a publicar
 
-
-###Cómo buscar fuentes
+#### Cómo buscar fuentes
 
 * Repositorios
 Un ejemplo es el de la organización sin ánimo de lucro destinada a la investigación, Propublica.
@@ -135,7 +133,9 @@ Un ejemplo:
 
 ¿Y si no hay datos?
 
-* Solicitudes de acceso a la información: Conocidas como FOIAs en inglés. Es aquella solicitud que presentamos a una administración amaparados por la ley de Trasnparencia española
+#### Solicitudes de acceso a la información
+
+Conocidas como FOIAs en inglés. Es aquella solicitud que presentamos a una administración amaparados por la ley de Trasnparencia española
 
 Para poder realizar esta solicitud, debemos
 
@@ -195,7 +195,9 @@ En ocasiones nos denegarán la solicitud. Si nuestra petición está justificada
 El modelo de reclamación puede encontrarse en el siguiente link. En él debemos argunentar por qué consideramos que no se está atendiendo a nuestro derecho de acceso a la información y justificarlo de acuerdo a los artículos de la ley. También podemos servirnos de estas interpretaciones del CTBG sobre aspectos muy concretos de la ley. Por ejemplo, como periodistas y según el Xxxx, podemos
 
 
-* Fácil, creo la base de datos. Es lo que pensamos al realizar este proyecto sobre la violencia de género en España. Las estadísticas que proporciona el ministerio XXXX son muy pobres así que decidimos recopilar una base de datos más completa con cada caso.
+#### Y si no hay datos, creo mi propia bbdd
+
+Es lo que pensamos al realizar este proyecto sobre la violencia de género en España. Las estadísticas que proporciona el ministerio XXXX son muy pobres así que decidimos recopilar una base de datos más completa con cada caso.
 
 Es sólo un ejemplo, alrededor nuestro hay miles de documentos desperdigados a los que si encontramos un encuadre, podemos construir nuestra propia base de datos.
 
