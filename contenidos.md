@@ -7,7 +7,7 @@
 
 ### Esquema del curso
 
-## I. <a href="#intro">Introducción y conceptos clave</a> (4h)
+## I. <a href="#intro">Caja de herramientas del periodista de datos</a> (4h)
 
 * ¿Qué es el periodismo de datos?
 * Fuentes: ¿Dónde puedo encontrar datos para mis historias?
@@ -35,7 +35,7 @@
 
 ## I. <a href="#intro">Introducción y conceptos clave</a>e (4h)
 
-* ¿Qué es el periodismo de datos?
+### ¿Qué es el periodismo de datos?
 
 
 "If you torture the data long enough, it will confess to anything"
