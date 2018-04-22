@@ -50,13 +50,13 @@
 
 — [Paul Bradshaw, Birmingham City University](http://interactivos.lanacion.com.ar/manual-data/introducci%C3%B3n_0.html)
 
-* Fuentes: ¿Dónde puedo encontrar datos para mis historias?
+### Fuentes: ¿Dónde puedo encontrar datos para mis historias?
 
 Una de las primeras preguntas que nos podemos hacer cuando nos encargan una historia o tengo una idea para desarrollar es ¿dónde puedo acceder a los datos que apoyen a mi historia?
 
 No existe una fórmula mágica, dependerá del tema, del tipo de historia, de las fuentes oficiales disponibles. Incluso, a veces no habrá datos y tendremos que solicitarlos o construir nuestra propia base de datos.
 
-###Fuentes estadísticas oficiales
+#### Fuentes estadísticas oficiales
 
 Para la mayoría de temas del día a día, y desde un contexto español, podemos servirnos de dos fuentes de datos principales:
 
