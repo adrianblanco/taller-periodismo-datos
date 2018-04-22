@@ -56,7 +56,7 @@ Una de las primeras preguntas que nos podemos hacer cuando nos encargan una hist
 
 No existe una fórmula mágica, dependerá del tema, del tipo de historia, de las fuentes oficiales disponibles. Incluso, a veces no habrá datos y tendremos que solicitarlos o construir nuestra propia base de datos.
 
-####Fuentes estadísticas oficiales
+###Fuentes estadísticas oficiales
 
 Para la mayoría de temas del día a día, y desde un contexto español, podemos servirnos de dos fuentes de datos principales:
 
@@ -78,7 +78,7 @@ Fuentes de otros países:
 * Todas las oficinas estadísticas oficiales
 
 
-####Open Data | Datos abiertos
+###Open Data | Datos abiertos
 
 ¿Qué son los datos abiertos?
 Los datos abiertos son datos que pueden ser utilizados, reutilizados y redistribuidos libremente por cualquier persona, y que se encuentran sujetos, cuando más, al requerimiento de atribución y de compartirse de la misma manera en que aparecen.
@@ -95,7 +95,7 @@ Barcelona, portal de datos abiertos
 Open Data in github
 https://github.com/collections/open-data
 
-####Fuentes privadas abiertas
+###Fuentes privadas abiertas
 
 También hay fuentes de datos abiertos en la web a las que podemos acudir:
 
@@ -108,7 +108,7 @@ También hay fuentes de datos abiertos en la web a las que podemos acudir:
 En España, desde que el XXX se aprobase la ley de Transparencia, las instituciones, las comunidades y los ayuntamientos han comenzado a publicar
 
 
-####Cómo buscar fuentes
+###Cómo buscar fuentes
 
 * Repositorios
 Un ejemplo es el de la organización sin ánimo de lucro destinada a la investigación, Propublica.
@@ -204,7 +204,7 @@ Para ello, simplemente hay que tener en cuenta:
 * Cómo vamos a estructurar esa base de datos. Es fundamental para poder manejar más tarde los datos de forma adecuada.
 * Los nombres de las variables deen ser sencillos. Si es necesario incluiremos un archivo de metadatos explicando cada una de las variables.
 
-#### Formatos
+### Formatos
 
 Una vez tengo localizadas la fuente que voy a utilizar es muy importante,
 
@@ -231,7 +231,7 @@ Para ello:
 * Busca bases de datos que apoyen o refuten ese tema.
 * Identifica el formato de cada una de ellas y analiza cómo puedes trabajar con ellas.
 
-#### Tipo o formato de los valores o datosAdem
+###Tipo o formato de los valores o datosAdem
 
 ás del formato del archivo, otro concepto clave es el tipo de dato de cada una de nuestras variables. En función del programa o lenguaje de programación existen diferentes tipos de datos. Los principales para trabajar con Excel o spreadsheet:
 
