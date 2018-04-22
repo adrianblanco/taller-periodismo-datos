@@ -38,17 +38,15 @@
 * ¿Qué es el periodismo de datos?
 
 
-If you torture the data long enough, it will confess to anything
+"If you torture the data long enough, it will confess to anything"
 
 — ['How to lie with statistics' por Darrell Huff, ](http://faculty.neu.edu.cn/cc/zhangyf/papers/How-to-Lie-with-Statistics.pdf)
-
 
  “En vez de quedarse con esa información y practicar el periodismo Gollum, quedarse con el anillo y no compartirlo, decidieron compartirlo con el Consorcio, porque entendieron que era un tema global que tocaba a más de 200 países”
 
 — [Mar Cabra, editora de la unidad de datos del ICIJ, ](http://www.unidiversidad.com.ar/mar-cabra-y-el-periodismo-gollum)
 
-
-Los datos pueden ser la fuente del periodismo de datos, o pueden ser la herramienta con la que se narra la historia o ambas cosas. Como cualquier fuente, debe tratarse con escepticismo; y como cualquier herramienta, debemos ser conscientes de cómo puede modelar y limitar las historias que se crean con la misma.
+"Los datos pueden ser la fuente del periodismo de datos, o pueden ser la herramienta con la que se narra la historia o ambas cosas. Como cualquier fuente, debe tratarse con escepticismo; y como cualquier herramienta, debemos ser conscientes de cómo puede modelar y limitar las historias que se crean con la misma"
 
 — [Paul Bradshaw, Birmingham City University](http://interactivos.lanacion.com.ar/manual-data/introducci%C3%B3n_0.html)
 
@@ -58,7 +56,7 @@ Una de las primeras preguntas que nos podemos hacer cuando nos encargan una hist
 
 No existe una fórmula mágica, dependerá del tema, del tipo de historia, de las fuentes oficiales disponibles. Incluso, a veces no habrá datos y tendremos que solicitarlos o construir nuestra propia base de datos.
 
-#### Fuentes estadísticas oficiales
+####Fuentes estadísticas oficiales
 
 Para la mayoría de temas del día a día, y desde un contexto español, podemos servirnos de dos fuentes de datos principales:
 
@@ -80,7 +78,7 @@ Fuentes de otros países:
 * Todas las oficinas estadísticas oficiales
 
 
-#### Open Data | Datos abiertos
+####Open Data | Datos abiertos
 
 ¿Qué son los datos abiertos?
 Los datos abiertos son datos que pueden ser utilizados, reutilizados y redistribuidos libremente por cualquier persona, y que se encuentran sujetos, cuando más, al requerimiento de atribución y de compartirse de la misma manera en que aparecen.
@@ -97,7 +95,7 @@ Barcelona, portal de datos abiertos
 Open Data in github
 https://github.com/collections/open-data
 
-#### Fuentes privadas abiertas
+####Fuentes privadas abiertas
 
 También hay fuentes de datos abiertos en la web a las que podemos acudir:
 
@@ -110,7 +108,7 @@ También hay fuentes de datos abiertos en la web a las que podemos acudir:
 En España, desde que el XXX se aprobase la ley de Transparencia, las instituciones, las comunidades y los ayuntamientos han comenzado a publicar
 
 
-#### Como buscar Fuentes
+####Cómo buscar fuentes
 
 * Repositorios
 Un ejemplo es el de la organización sin ánimo de lucro destinada a la investigación, Propublica.
