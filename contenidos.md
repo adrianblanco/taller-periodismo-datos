@@ -71,14 +71,14 @@ http://ec.europa.eu/eurostat/statistics-explained/index.php/Main_Page/es
 
 http://ropengov.github.io/r/2015/05/01/eurostat-package-examples/
 
-Fuentes de otros países:
+#### Fuentes de otros países:
 
 * Office for National Statistics (ONS) https://www.ons.gov.uk/
 * Oficina estadísitica federal alemana - Destatis https://www.destatis.de/EN/Homepage.html
 * Todas las oficinas estadísticas oficiales
 
 
-###Open Data | Datos abiertos
+#### Open Data | Datos abiertos
 
 ¿Qué son los datos abiertos?
 Los datos abiertos son datos que pueden ser utilizados, reutilizados y redistribuidos libremente por cualquier persona, y que se encuentran sujetos, cuando más, al requerimiento de atribución y de compartirse de la misma manera en que aparecen.
