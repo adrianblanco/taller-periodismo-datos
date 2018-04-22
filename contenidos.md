@@ -233,9 +233,9 @@ Para ello:
 * Busca bases de datos que apoyen o refuten ese tema.
 * Identifica el formato de cada una de ellas y analiza cómo puedes trabajar con ellas.
 
-###Tipo o formato de los valores o datosAdem
+### Tipo o formato de los valores o datos
 
-ás del formato del archivo, otro concepto clave es el tipo de dato de cada una de nuestras variables. En función del programa o lenguaje de programación existen diferentes tipos de datos. Los principales para trabajar con Excel o spreadsheet:
+Además del formato del archivo, otro concepto clave es el tipo de dato de cada una de nuestras variables. En función del programa o lenguaje de programación existen diferentes tipos de datos. Los principales para trabajar con Excel o spreadsheet:
 
 * Texto o storytelling
 * Numérico
