@@ -38,7 +38,7 @@
 
 =========
 
-## I. <a href="#intro">Introducción y conceptos clave</a>e (4h)
+## I. <a href="#intro">La caja de herramientas del periodista de datos</a>e (4h)
 
 ### ¿Qué es el periodismo de datos?
 
@@ -208,7 +208,7 @@ Para poder servirnos de OCR necesitamos ciertos conocimiento de programación. E
 * [AdobePro](https://acrobat.adobe.com/es/es/acrobat/acrobat-pro.html)
 * [OnlineOCR](https://www.onlineocr.net/es/)
 
-Vamos a hacer una prueba con CometDocs donde convertiremos un archivo .pdf en un archivo .xls o Excel. Seguimos los siguientes pasos:
+Vamos a hacer una prueba con CometDocs donde convertiremos un archivo .pdf en un archivo .xls o Excel. Descargamos el archivo .pdf 'Datos y Evoluciones Violencia de Genero - Año 2017' del [siguiente enlace](http://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Estadistica-por-temas/Datos-penales--civiles-y-laborales/Violencia-domestica-y-Violencia-de-genero/Datos-sobre-Violencia-sobre-la-mujer-en-la-estadistica-del-CGPJ/) y seguimos los siguientes pasos:
 
 * Entramos en [Cometdocs](https://www.cometdocs.com/)
 * Arrastramos el archivo que queremos convertir y lo subimos a la plataforma.
