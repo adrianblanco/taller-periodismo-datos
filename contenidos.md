@@ -380,11 +380,7 @@ La solución al ejercicio, podéis encontrarla en [el siguiente enlace](https://
 
 ## III. <a href="#visualizacion">Visualización de datos</a> (4h)
 
-#### Antes de comenzar
-
-### Gráficos como guía para el análisis de datos
-
-
+#### Antes de comenzar: Gráficos como guía para el análisis de datos
 
 ###### Chart Suggestion
 Esquema creado por Andrew Abela
