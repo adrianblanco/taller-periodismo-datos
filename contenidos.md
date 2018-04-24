@@ -261,3 +261,192 @@ Para ello:
 * Busca bases de datos que apoyen o refuten ese tema.
 * Identifica el formato de cada una de ellas y analiza cómo puedes trabajar con ellas.
 * Prepara un guión con los datos que vas a utilizar y la historia que vas a contar.
+
+## II. <a href="#analisis">Análisis de datos</a> (4h)
+
+Para la fase de análisis de datos, vamos a trabajar con la siguiente estadísitica sobre datos de violencia de género disponible en [el Minsiterio de Sanidad, Servicios Sociales e Igualdad](http://estadisticasviolenciagenero.msssi.gob.es/).
+
+Durante el ejercicio, que podéis encontrar en [este enlace](https://docs.google.com/spreadsheets/d/1Vc31DKJIXdB9bg0pcGKFj0h1mI5XfNm4ahOtyODpy34/edit?usp=sharing) vamos a realizar los siguientes procesos.
+
+#### Extracción y limpieza de datos
+
+Lo haremos con Google spreadsheet o Excel aunque para determinadas también podríamos utilizar Open Refine.
+
+#### Operaciones estadísticas básicas
+
+Para comenzar, debemos tener claros los siguientes conceptos estadísticos que nos servirán para identificar patrones o valores extraños en los datos que analicemos más adelante.
+
+Media: media aritmética es el promedio de un conjunto de valores.
+
+Para realizar una media de una serie de valores, escribimos:
+
+```
+=AVERAGE(VALOR1, VALOR2, VALOR3)
+=AVERAGE(VALOR1 : VALOR3)
+```
+
+Mediana: punto medio o valor de la variable de posición central en un conjunto de datos ordenados.
+
+Para obtener la mediana de un conjunto de valores, escribimos:
+
+```
+=MEDIAN(VALOR1, VALOR2, VALOR3)
+=MEDIAN(VALOR1 : VALOR3)
+```
+
+Moda: la moda es el dato más repetido de la encuesta, el valor de la variable con mayor frecuencia absoluta.
+
+Para obtener la moda de un conjunto de valores, escribimos:
+
+```
+=MODA(VALOR1, VALOR2, VALOR3)
+=MODA(VALOR1 : VALOR3)
+```
+
+#### Cómo cambiar el formato de datos una columna
+
+Tenemos dos opciones.
+
+* Seleccionar en el menú superior la opción de formato y elegir el formato que deseamos.
+
+* Seleccionar el icono marcado con '1 2 3' para cambiar el formato.
+
+####  Filtros
+
+Si aplicamos un filtro (icono con forma de embudo en la parte superior de la barra de herramientas) podemos seleccionar qué parte de los datos queremos analizar o visualizar como tabla.
+
+Además a los filtros podemos aplicarles condiciones numéricas para trabajar de forma más sencilla.
+
+####  Tabla dinámica o Pivot Table
+
+Una tabla dinámica es una tabla donde resumimos un conjunto de datos.
+
+Para ejecutar una debemos seleccionar el conjunto de datos sobre el que queremos aplicar la tabla dinámica. Una vez seleccionado el conjunto de datos pinchamos en Crear Tabla Dinámica en el Menú.
+
+Se abrirá una nueva hoja de cálculo con una columna a la derecha con los siguientes apartados:
+
+* Filas
+* Columnas
+* Filtros
+* Valores
+
+Seleccionamos el nombre de las columnas en función de cómo queramos organizar esta base de datos. Según arrastramos las diferentes columnas se va generando la nueva tabla.
+
+¡OJO! En caso de que queramos trabajar con la nueva tabla dinámica, lo ideal es copiar la misma y pegarla sin formato en una nueva hoja, para evitar desconfigurar la tabla que acabamos de crear.
+
+Vamos a verlo con un ejemplo sobre la base de datos en la que estamos trabajando.
+
+#### BUSCARV
+
+Una función muy útil en Excel o spreadsheet es BUSCARV O VLOOKUP.
+
+```
+
+=BUSCARV(valor_búsqueda; intervalo; índice; [está_ordenado])
+=VLOOKUP(valor_búsqueda; intervalo; índice; [está_ordenado])
+
+=VLOOKUP(A2; A2:B26; 2; FALSE)
+
+```
+
+* valor_búsqueda: valor que quieres buscar. Por ejemplo, 42, "Gatos" o I24.
+
+* intervalo: intervalo de la búsqueda. El valor especificado en el argumento valor_búsqueda se busca en la primera columna del intervalo.
+
+* índice: índice de la columna del valor que se debe devolver, teniendo en cuenta que la primera columna de intervalo tiene asignado el número 1.
+
+* Si el valor de índice no está comprendido entre 1 y el número de columnas de intervalo, se devuelve #¡VALOR!.
+
+* está_ordenado [VERDADERO de forma predeterminada]: indica si la columna en la que se quiere buscar (la primera columna del intervalo especificado) está ordenada. Se recomienda FALSO en la mayoría de los casos.
+
+        * Se recomienda configurar está_ordenado como FALSO; de este modo, se devuelve una coincidencia exacta. Si hay varios valores que coinciden, se devuelve el contenido de la celda que corresponde al primer valor encontrado y, si no se encuentra dicho valor, se devuelve #N/A.
+
+        * Si está_ordenado es VERDADERO o se omite, se devuelve la coincidencia más próxima (menor o igual que el valor buscado). Si todos los valores de la columna de búsqueda son mayores que el valor de búsqueda, se devuelve #N/A.
+
+Vamos a verlo con un ejemplo sobre la base de datos en la que estamos trabajando, disponible en [este enlace]().
+
+#### Si queremos extraer la tabla limpia en .csv...
+
+* Cómo generar un .csv con Spreadsheet.
+Comencemos por algo sencillo y que no puede ser útil como veremos más adelante.
+
+Archivo - Descargar como... - Archivo .csv
+
+¡OJO! En Excel, también podemos realizar esta operación. Simplemente debemos tener en cuenta que hay una diferencia con Spreadsheet. Aunque seleccionemos la opción de csv y Excel nos generé un csv, si inspeccionamos éste con un editor de textos, veremos que el separador no es una `,`sino que ésta ha sido sustituida por un `;`.
+
+A efectos de trabajar con determinados porgramas, este hecho podría darnos algún problema.
+
+La solución al ejercicio, podéis encontrarla en [el siguiente enlace](https://docs.google.com/spreadsheets/d/1l88ILt9L2-dnlVI1oUOP_UzTnMMxeH0FR337jm_XxI0/edit#gid=1915501533)
+
+## III. <a href="#visualizacion">Visualización de datos</a> (4h)
+
+#### Antes de comenzar
+
+### Gráficos como guía para el análisis de datos
+
+
+
+###### Chart Suggestion
+Esquema creado por Andrew Abela
+
+<img src="img/Andrew_Abela.png" alt="alt text" width="500">
+
+Fuente: [Andrew Abela](http://www.verstaresearch.com/blog/how-to-select-the-type-of-chart-to-use/)
+
+Esquema en [.pdf](https://img.labnol.org/di/choosing_a_good_chart2.pdf)
+
+###### Visual Vocabulary
+
+<img src="img/Visual_Vocabulary.png" alt="alt text" width="500">
+
+Fuente: [FT](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary.pdf)
+
+Versión [interactiva](http://ft-interactive.github.io/visual-vocabulary/)
+
+###### Graphic Continuum
+
+<img src="img/Graphic_continuum.png" alt="alt text" width="500">
+
+Fuente: [Policy Viz](https://policyviz.com/2014/09/09/graphic-continuum/)
+
+Versión de [gran resolución](https://s-media-cache-ak0.pinimg.com/originals/1c/e4/d7/1ce4d7999d15abc6276218672c71b702.jpg)
+
+=================
+
+###### Otros recursos:
+
+* Una base de datos, [25 formas de verla](http://flowingdata.com/2017/01/24/one-dataset-visualized-25-ways/)
+
+* The bad map we see every presidential election [Vox](https://www.youtube.com/watch?v=hlQE4IGFc5A)
+
+* [Chart Chooser](http://labs.juiceanalytics.com/chartchooser/index.html)
+
+* Esquema de [Tableau](http://www.tableau.com/sites/default/files/media/which_chart_v6_final_0.pdf)
+
+#### Gráficos, mapas y herramientas gráficas para mejorar mis artículos
+
+Datawrapper es probablemente la herramienta online más rápida e intuitiva para generar gráficos en segundos.
+
+Importante:
+
+* Nuestros datos deben tener el formato correcto.
+* Debemos evitar la presencia de null o celdas vacías.
+
+Al crear un gráfico en Datawrapper siempre seguiremos el mismo proceso. La creación del gráfico se divide en cuatro fases:
+
+Subir datos:
+
+* copiamos y pegamos los datos bien los datos.
+* Subimos un archivo .csv
+
+Revisar:
+
+En esta fase debemos comprobar que Datawrapper ha interpretado los datos de forma correcta. Hay dos acciones muy útiles que podemos llevar a cabo.
+
+* Transpose the data: Nos sirve para 'dar la vuelta' a la tabla de datos. Es decir, las columnas pasarán a ser filas y las filas pasarán a ser columnas. En función del gráfico que queramos elaborar deberemos formatear los datos de un modo u otro.
+
+* Cambiar el tipo de dato: Si clicamos sobre el cabecero de cada una de las columnas podemos cambiar el formato o tipo de datos de los valores que contiene. Datawrapper nos ofrece los siguientes tipos:
+
+* Numérico
+* Texto
+* Fecha
