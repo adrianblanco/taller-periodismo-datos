@@ -407,9 +407,17 @@ Fuente: [Policy Viz](https://policyviz.com/2014/09/09/graphic-continuum/)
 
 Versión de [gran resolución](https://s-media-cache-ak0.pinimg.com/originals/1c/e4/d7/1ce4d7999d15abc6276218672c71b702.jpg)
 
-=================
-
 ###### Otros recursos:
+
+* Una base de datos, [Visualization Universe](http://visualizationuniverse.com/charts)
+
+* [ChartMaker](http://chartmaker.visualisingdata.com)
+
+* [DataViz Project](http://datavizproject.com)
+
+* [Xeno Graphics](https://xeno.graphics)
+
+* Una base de datos, [DataViz Catalogue](https://datavizcatalogue.com)
 
 * Una base de datos, [25 formas de verla](http://flowingdata.com/2017/01/24/one-dataset-visualized-25-ways/)
 
@@ -419,9 +427,14 @@ Versión de [gran resolución](https://s-media-cache-ak0.pinimg.com/originals/1c
 
 * Esquema de [Tableau](http://www.tableau.com/sites/default/files/media/which_chart_v6_final_0.pdf)
 
+* [R Graph gallery](https://www.r-graph-gallery.com)
+
+* [Python Graph gallery](https://python-graph-gallery.com)
+
+
 #### Gráficos, mapas y herramientas gráficas para mejorar mis artículos
 
-Datawrapper es probablemente la herramienta online más rápida e intuitiva para generar gráficos en segundos.
+[Datawrapper](https://www.datawrapper.de/) es probablemente la herramienta online más rápida e intuitiva para generar gráficos en segundos.
 
 Importante:
 
@@ -430,12 +443,12 @@ Importante:
 
 Al crear un gráfico en Datawrapper siempre seguiremos el mismo proceso. La creación del gráfico se divide en cuatro fases:
 
-Subir datos:
+Subir datos / Upload Data:
 
 * copiamos y pegamos los datos bien los datos.
 * Subimos un archivo .csv
 
-Revisar:
+Revisar / Check & Describe:
 
 En esta fase debemos comprobar que Datawrapper ha interpretado los datos de forma correcta. Hay dos acciones muy útiles que podemos llevar a cabo.
 
@@ -446,3 +459,54 @@ En esta fase debemos comprobar que Datawrapper ha interpretado los datos de form
 * Numérico
 * Texto
 * Fecha
+
+Visualizar / Visualize:
+
+En esta fase debemos seleccionar el gráfico que queremos generar. Datawrapper ofrece las siguientes opciones:
+
+* Bar chart
+* Split barss
+* Area chart
+* ...
+
+<img src="img/datawrapper.png" alt="alt text" width="500">
+
+Publicar / Publish & Embed:
+
+Lo primero que debemos hacer es seleccionar el tamaño (ancho y alto) que queramos que tenga nuestro gráfico.
+
+Lo habitual para la web son 600px de ancho y 400px de largo, aunque dependerá del libro de estilo del medio para el que trabajemos.
+
+En función del tipo de cuenta que tengamos Datawrapper nos ofrecerá unas opciones u otras.
+
+Por lo general, y para el caso que nos ocupa, en caso de que queramos publicar un iframe seleccionaremos:
+
+Iframe, descartamos la opción iframe.
+
+Otra opción es realizar exportar el gráfico como .png (sólo si tenemos una cuenta) o realizar una captura de pantalla del mismo (en Mac `cmd + shift +4`, en Windows `printPage`).
+
+#### Otras herramientas de gráficos
+
+* [Infogram](https://infogram.com/): es una herramienta muy similar a Datawrapper. Sencilla, en unos pocos pasos podemos crear gráficos de diferentes tipos.
+
+Además de Infogram, dos herramientas mucho más avanzadas son:
+
+* [RAW](https://rawgraphs.io/)
+
+* [Flourish](https://flourish.studio/)
+
+Por otro lado, merece la pena destacar SVG Crowbar:
+
+* [SVG Crowbar](https://nytimes.github.io/svg-crowbar/) es una herramienta que nos permite extraer SVGs de la web.
+
+La siguiente pregunta es, ¿qué es un SVG?
+
+Gráficos vectoriales escalables, o Gráficos vectoriales redimensionables (del inglés Scalable Vector Graphics) o SVG es un formato de gráficos vectoriales bidimensionales, tanto estáticos como animados, en formato XML, cuya especificación es un estándar abierto desarrollado por el W3C desde el año 1999.
+
+#### Herramientas especializadas en crear Mapas
+
+* [CARTO](https://carto.com/)
+
+* [MapBox](https://www.mapbox.com/)
+
+* [QGIS](https://www.qgis.org/es/site/)
