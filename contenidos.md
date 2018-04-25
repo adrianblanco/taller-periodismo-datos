@@ -409,7 +409,7 @@ Versión de [gran resolución](https://s-media-cache-ak0.pinimg.com/originals/1c
 
 ###### Otros recursos:
 
-* Una base de datos, [Visualization Universe](http://visualizationuniverse.com/charts)
+* [Visualization Universe](http://visualizationuniverse.com/charts)
 
 * [ChartMaker](http://chartmaker.visualisingdata.com)
 
@@ -417,7 +417,7 @@ Versión de [gran resolución](https://s-media-cache-ak0.pinimg.com/originals/1c
 
 * [Xeno Graphics](https://xeno.graphics)
 
-* Una base de datos, [DataViz Catalogue](https://datavizcatalogue.com)
+* [DataViz Catalogue](https://datavizcatalogue.com)
 
 * Una base de datos, [25 formas de verla](http://flowingdata.com/2017/01/24/one-dataset-visualized-25-ways/)
 
